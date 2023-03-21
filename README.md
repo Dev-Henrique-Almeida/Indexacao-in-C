@@ -12,4 +12,4 @@ Implemente um pequeno "Banco de dados" para gerenciar apenas uma tabela, na ling
 - g) Impremente a funcao de remover registro, que remove apenas as referencias ao registro nos indices, sem a necessidade de modificar o arquivo de dados.
 - h) Implemente uma funcao de busca para cada indice. Essa funcao deve imprimir em tela todos os satelite do registro referenciado pelo indice passado como parametro.
 - i) Implemente uma funcao para exibir os registros ordenados de acordo com um dos indices a sua escolha(inOrder)
-- j) Implemente a funcao main que permite ao usuario utilizar o sistema com todas as opcoes de funcoes implementadas.
+- j) Implemente a funcao main que permite ao usuario utilizar o sistema com todas as opcoes de funcoes implementadas. 
