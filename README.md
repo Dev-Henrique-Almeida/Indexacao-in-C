@@ -1,5 +1,4 @@
 # Aed-II - Projeto 1 VA
-Indexação em C
 
 Implemente um pequeno "Banco de dados" para gerenciar apenas uma tabela, na linguagem C, utilizando a técnica de indexação, de acordo com as definicioes a seguir:
 
