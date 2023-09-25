@@ -156,7 +156,7 @@ produto *procurarLivroBst(tabela *tab, int chave) {
     		}
     	}
     }
-    printf("┌-----------------------------┐\n");
+    	printf("┌-----------------------------┐\n");
 	printf("|      ID Nao Encontrado      |\n");
 	printf("└-----------------------------┘\n\n");
     return NULL;
@@ -238,7 +238,7 @@ produto *procurarLivroRb(tabela *tab, int chave) {
 	    	}
 	    }
     }
-    printf("┌------------------------------┐\n");
+   	printf("┌------------------------------┐\n");
 	printf("|       Ano Nao Encontrado     |\n");
 	printf("└------------------------------┘\n\n");
     return NULL;
@@ -253,7 +253,7 @@ void buscarRb(int chave, rb raiz, tabela *tab){
         buscarRb(chave,raiz->dir, tab);
     }
     else if(tab->arvoreRbIndice == NULL){
-    	printf("┌------------------------------┐\n");
+    		printf("┌------------------------------┐\n");
 		printf("|       Ano Nao Encontrado     |\n");
 		printf("└------------------------------┘\n\n");
 	    return;
@@ -322,7 +322,7 @@ produto* procurarLivroAvl(tabela *tab, char* chave) {
 			encontrado->titulo = (char*)malloc(tam*sizeof(char));
 			fread(encontrado->titulo, sizeof(char),tam, tab->arquivo);
 
-            printf("┌----------------------------------------------------------------------------------┐\n");
+            		printf("┌----------------------------------------------------------------------------------┐\n");
 			printf("| ID: %d, Autor: %s, Titulo: %s, Preco: %.2f, Ano de Lancamento: %d\n", encontrado->id, encontrado->autor, encontrado->titulo, encontrado->preco, encontrado->ano);
 			printf("└----------------------------------------------------------------------------------┘\n");
 			return encontrado;
@@ -334,7 +334,7 @@ produto* procurarLivroAvl(tabela *tab, char* chave) {
 	        }
     	}
     }
-    printf("┌---------------------------------┐\n");
+    	printf("┌---------------------------------┐\n");
 	printf("|       Titulo Nao Encontrado     |\n");
 	printf("└---------------------------------┘\n\n");
     return NULL;
